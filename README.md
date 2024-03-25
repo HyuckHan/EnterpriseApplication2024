@@ -1,4 +1,4 @@
-# EnterpriseApplication2023
+# EnterpriseApplication2024
 
 ## Prerequisite
 
@@ -22,7 +22,7 @@ export JAVA_HOME=/usr/lib/jvm/java-11-openjdk-amd64/
 
 ### Gradle 설치
 
-Visit https://services.gradle.org/distributions/.
+Visit https://services.gradle.org/distributions/
 
 최신 버전의 gradle binary 버전을 다운로드한다.
 2023-09-13일 기준으로 gradle-8.3-bin.zip
