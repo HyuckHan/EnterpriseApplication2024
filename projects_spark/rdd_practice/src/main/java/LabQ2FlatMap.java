@@ -23,7 +23,7 @@ public class LabQ2FlatMap {
 		class ToThree implements FlatMapFunction<Integer,Integer> {
 			public Iterator<Integer> call(Integer v) {
 				ArrayList list = new ArrayList();
-				for(int i=0; i<=v ; i++)
+				for(int i=v; i<=3 ; i++)
 					list.add(i);
 				return list.iterator();
 			}
