@@ -41,3 +41,9 @@ $ sudo ln -s gradle-8.3 gradle
 export GRADLE_HOME=/opt/gradle
 export PATH=${GRADLE_HOME}/bin:${PATH}
 ```
+
+### git 설치
+
+```
+$ sudo apt install git
+```
