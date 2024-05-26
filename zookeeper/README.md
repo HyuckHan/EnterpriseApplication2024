@@ -7,12 +7,12 @@
 https://zookeeper.apache.org/releases.html#download
 ```
 
-2023-09-21일 기준 3.9.0
+2024-05-26일 기준 3.9.2
 ```
 $ cd /tmp 
-$ wget https://dlcdn.apache.org/zookeeper/zookeeper-3.9.0/apache-zookeeper-3.9.0-bin.tar.gz
-$ sudo tar -xvf /tmp/apache-zookeeper-3.9.0-bin.tar.gz -C /usr/local
-$ sudo ln -s /usr/local/apache-zookeeper-3.9.0-bin /usr/local/apache-zookeeper
+$ wget https://dlcdn.apache.org/zookeeper/zookeeper-3.9.2/apache-zookeeper-3.9.2-bin.tar.gz
+$ sudo tar -xvf /tmp/apache-zookeeper-3.9.2-bin.tar.gz -C /usr/local
+$ sudo ln -s /usr/local/apache-zookeeper-3.9.2-bin /usr/local/apache-zookeeper
 ```
 
 configuration 파일을 생성하고 dataDir 값 변경
