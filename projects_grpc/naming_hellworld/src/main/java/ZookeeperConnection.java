@@ -44,7 +44,7 @@ public class ZookeeperConnection {
                 return false;
             }
             
-            zoo = new ZooKeeper(zhHostport, TIMEOUT_MS, new Watcher() {
+            zoo = new ZooKeeper(zkhostport, TIMEOUT_MS, new Watcher() {
                 public void process(WatchedEvent we) {
                     if (we.getState() == KeeperState.SyncConnected) {
                         connectedSignal.countDown();
